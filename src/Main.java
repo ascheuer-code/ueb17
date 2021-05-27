@@ -1,3 +1,4 @@
+
 /**
  * ueb 17 - Main Klasse
  * 
@@ -143,6 +144,7 @@ public class Main {
     public static void main(String[] args) {
 
         new Main().start();
+
     }
 
     /**
@@ -155,7 +157,9 @@ public class Main {
         Lib_Digits.checkMin(0, j, "Max");
 
         for (int index = i + 1; index < j; index++) {
+
             System.out.println("f(" + index + ") = " + fkt.apply(index));
         }
+
     }
 }
